@@ -12,8 +12,18 @@
 // the quantity bought.
 // fn calculate_price_of_apples(???) -> ??? { ??? }
 
+fn calculate_price_of_apples(amount: i32) -> i32 {
+    if amount > 40 {
+        amount
+    } else {
+        amount * 2
+    }
+}
+
 fn main() {
     // You can optionally experiment here.
+    let check = calculate_price_of_apples(45);
+    println!("Check: {}", check)
 }
 
 // Don't change the tests!

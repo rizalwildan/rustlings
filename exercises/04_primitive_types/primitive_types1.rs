@@ -2,6 +2,8 @@
 
 fn main() {
     let is_morning = true;
+    let is_evening = true;
+    
     if is_morning {
         println!("Good morning!");
     }
